@@ -1,4 +1,57 @@
-.logo{
+.Hero {
+    position: relative;
+    z-index: 99;
+    margin-left: 160px;
+}
+
+
+.hero_background_father {
+    overflow: hidden;
+
+    .hero_background {
+        width: 785.1px;
+        height: 761.1px;
+        background-color: black;
+        position: absolute;
+        z-index: -1;
+        margin-top: -630px;
+        margin-left: 405px;
+        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+
+.logo {
     max-width: 300px;
     height: 600px;
+    margin-left: 564px;
+    margin-top: -24px;
+
+}
+.logo_kl {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 900px;
+    margin-left: 150px;
+    z-index: 99px;
+    margin-top: -740px;
+
+
+.link_2{
+    text-decoration: none;
+    margin-left: 352px;
+}
+.link_3{
+    text-decoration: none;
+}
+.link_4{
+    text-decoration: none;
+}
+.link_5{
+    text-decoration: none;
+}
+
+
+
 }

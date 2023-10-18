@@ -1,32 +1,14 @@
-.container{
-    max-width: 1920px;
-    margin: 0 auto;
-}
-.link_gl {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    max-width: 900px;
-    margin-left: 150px;
 
+.Header{
+    background: #D7D7D7;
+    width: 1068px;
+    height: 759px;
+    z-index: 99;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
 .logo_my {
     border-radius: 50%;
-    width: 100px;
-    margin-top: 100px;
-}
-.link_2{
-    text-decoration: none;
-}
-.link_3{
-    text-decoration: none;
-}
-.link_4{
-    text-decoration: none;
-}
-.link_5{
-    text-decoration: none;
-}
-
-
-
+    width: 70px;
+    margin-top: 7px;
+    margin-left: 8px
 }
