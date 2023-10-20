@@ -1,57 +1,36 @@
-.Hero {
-    position: relative;
-    z-index: 99;
-    margin-left: 160px;
-}
+.hero_inner {
+    display: flex;
+    z-index: -1;
 
+    .logo {
+        z-index: 99;
+        margin-top: -478px;
+        margin-left: 968px;
+    }
 
-.hero_background_father {
-    overflow: hidden;
-
-    .hero_background {
-        width: 785.1px;
-        height: 761.1px;
-        background-color: black;
-        position: absolute;
-        z-index: -1;
-        margin-top: -630px;
-        margin-left: 405px;
-        clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    .logo_img {
+        height: 633px;
+        width: 471px;
     }
 }
 
-
-.logo {
-    max-width: 300px;
-    height: 600px;
-    margin-left: 564px;
-    margin-top: -24px;
-
-}
-.logo_kl {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    max-width: 900px;
-    margin-left: 150px;
-    z-index: 99px;
-    margin-top: -740px;
-
-
-.link_2{
-    text-decoration: none;
-    margin-left: 352px;
-}
-.link_3{
-    text-decoration: none;
-}
-.link_4{
-    text-decoration: none;
-}
-.link_5{
-    text-decoration: none;
+.backgraund__left {
+    width: 55%;
+    height: 100%;
+    background: #D7D7D7;
+    width: 970px;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    margin-top: -518px;
+    margin-left: -52px;
 }
 
-
-
+.backgraund__right {
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
+    margin-left: 720px;
+    margin-top: -518px;
 }
