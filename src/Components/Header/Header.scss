@@ -1,6 +1,7 @@
 .Header {
     position: relative;
     z-index: 99;
+
     .logo_my {
         border-radius: 50%;
         width: 70px;
@@ -8,52 +9,9 @@
         margin-left: 138px;
     }
 
-    .text_my {
-        margin-top: 379px;
-        margin-left: 177px;
-        display: flex;
-        width: 171px;
-        height: 58px;
-        flex-direction: column;
-        justify-content: flex-end;
-        flex-shrink: 0;
-        color: #000;
-        text-align: center;
-        font-family: Raleway;
-        font-size: 23px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
 
-    .text_name {
-        margin-left: -43px;
-        width: 532px;
-        height: 105px;
-        flex-shrink: 0;
-        color: #000;
-        text-align: center;
-        font-family: Raleway;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    .text__job {
-        margin-top: -61px;
-        width: 426px;
-        height: 40px;
-        flex-shrink: 0;
-        color: #909090;
-        text-align: center;
-        font-family: Raleway;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
 }
+
 .logo_kl {
     display: flex;
     justify-content: space-between;
@@ -62,54 +20,130 @@
     margin-left: 610px;
     margin-top: 11px;
     position: absolute;
-    li{
+
+    li {
         margin-left: 70px;
     }
-    .link_1{
-        &:hover{
+
+    .link_1 {
+        &:hover {
             background-color: rgb(86, 86, 183);
             border-radius: 10%;
         }
+
         text-decoration: none;
         color: white;
         margin-left: 279px;
     }
 
-.link_2{
-    &:hover{
-        background-color: rgb(86, 86, 183);
-        border-radius: 10%;
-    }
-    
-    text-decoration: none;
-    
-    color: white;
-}
-.link_3{
-    &:hover{
-        background-color: rgb(86, 86, 183);
-        border-radius: 10%;
-    }
-    text-decoration: none;
-    color: white;
-}
-.link_4{
-    &:hover{
-        background-color: rgb(86, 86, 183);
-        border-radius: 10%;
-    }
-    text-decoration: none;
-    color: white;
-}
-.link_5{
-    &:hover{
-        background-color: rgb(86, 86, 183);
-        border-radius: 10%;
+    .link_2 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
         }
-    text-decoration: none;
-    color: white;
+
+        text-decoration: none;
+
+        color: white;
+    }
+
+    .link_3 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .link_4 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: white;
+    }
+
+    .link_5 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: white;
+    }
+
+
+
 }
 
+.logo_kl2{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 900px;
+    margin-left: 610px;
+    margin-top: 11px;
+    position: absolute;
 
+    li {
+        margin-left: 70px;
+    }
+
+    .link_1 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: black;
+        margin-left: 279px;
+    }
+
+    .link_2 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+
+        color: black;
+    }
+
+    .link_3 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: black;
+    }
+
+    .link_4 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: black;
+    }
+
+    .link_5 {
+        &:hover {
+            background-color: rgb(86, 86, 183);
+            border-radius: 10%;
+        }
+
+        text-decoration: none;
+        color: black;
+    }
 
 }
