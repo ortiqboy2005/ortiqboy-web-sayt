@@ -11,8 +11,8 @@ function Header() {
     <div className='Header'>
         <div className="header_inner">
         <ul className={location!= '/'? 'logo_kl2': 'logo_kl'}>
-          <li>
-          <Link to="/" className='link_1'>Home</Link>
+          <li >
+              <Link to="/" className={location=='/'?'link_1 active': 'link_1'}>Home</Link>
           </li>
           <li>
               <Link to="/about" className='link_2'>About me</Link>
