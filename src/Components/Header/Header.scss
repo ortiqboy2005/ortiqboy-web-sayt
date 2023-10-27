@@ -1,7 +1,8 @@
+
 .Header {
     position: relative;
     z-index: 99;
-
+    // padding-top: 30px;
     .logo_my {
         border-radius: 50%;
         width: 70px;
@@ -16,20 +17,31 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: 610px;
     margin-top: 11px;
     position: absolute;
-
+    .active{
+        color: rgb(86, 86, 183) !important;
+    }
+    .active::after{
+        content: "";
+        position: absolute;
+        background-color: rgb(86, 86, 183);
+        height: 2px;
+        width: 80%;
+        margin-left: -48px;
+        margin-top: 30px;
+    }
     li {
         margin-left: 70px;
+        a{
+            font-size: 20px;
+        }
     }
 
     .link_1 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
+        position: relative;
 
         text-decoration: none;
         color: white;
@@ -37,10 +49,10 @@
     }
 
     .link_2 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
+        // &:hover {
+        //     background-color: rgb(86, 86, 183);
+        //     border-radius: 10%;
+        // }
 
         text-decoration: none;
 
@@ -85,65 +97,63 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: 610px;
     margin-top: 11px;
     position: absolute;
 
     li {
         margin-left: 70px;
-    }
-
-    .link_1 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
+        a{
+            font-size: 20px;
         }
+    }
+    
+    .link_1 {
 
         text-decoration: none;
         color: white;
         margin-left: 279px;
     }
-
+    .link_1:hover{
+        color:rgb(86, 86, 183) ;
+    }
     .link_2 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
+
 
         text-decoration: none;
 
         color: white;
     }
+    .link_2:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
     .link_3 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
 
         text-decoration: none;
         color: white;
     }
+    .link_3:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
     .link_4 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
 
         text-decoration: none;
         color: white;
     }
+    .link_4:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
     .link_5 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
-
         text-decoration: none;
         color: white;
+    }
+    .link_5:hover{
+        color:rgb(86, 86, 183) ;
+
     }
 
 }

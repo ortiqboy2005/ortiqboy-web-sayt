@@ -30,24 +30,24 @@ function About() {
         className="mySwiper"
       > <div className='gl_img'>
        </div>
-        <SwiperSlide><div className='img1'><img className='img11' src={img1} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img2'><img className='img22' src={img2} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img3'><img className='img33' src={img3} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img4'><img className='img44' src={img4} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img5'><img className='img55' src={img5} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img6'><img className='img66' src={img6} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img7'><img className='img77' src={img7} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img8'><img className='img88' src={img8} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className='img9'><img className='img99' src={img9} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img11' src={img1} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img22' src={img2} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img33' src={img3} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img44' src={img4} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img55' src={img5} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img66' src={img6} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img77' src={img7} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img88' src={img8} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className='img'><img className='img99' src={img9} alt="" /></div></SwiperSlide>
       </Swiper>
     </>
          
              <div className="my_about">
-              <p className='my_fullname'>Hi,my fullname is Abdurahmonov Ortiqboy. I am frontend developer in Uzbekistan. I am 18 years old.</p>
-              <p className='my_inf'>I have finished my college this year. My favourite jobs are accounter, frontend developer, web designer. 
-               I am interested in building wonderful websites and working on collaboration with other people that help me improve my knowledge and experience.</p>
-               <p className='my_inf2'>I have been studying and practicing at Digital City in Andijan for 8 months. In the last 2 months, 
-               I have practiced my knowledge by building a website with our team, the F-3 team.</p>
+              <p className='my_fullname'>Hi,my fullname is <span className='name'> Abdurahmonov Ortiqboy</span>. I am frontend developer in Uzbekistan. <span className='name'> I am 18 years old.</span>
+              I have finished my college this year. My favourite jobs are accounter, frontend developer, web designer. 
+               I am interested in building wonderful websites and working on collaboration with other people that help me improve my knowledge and experience.
+               I have been studying and practicing at <span className='name'> Digital City in Andijan</span> for 8 months. In the last 2 months, 
+               I have practiced my knowledge by building a website with our team, the <span className='name'> F-3 team</span>.</p>
             </div>
          
         </div>
