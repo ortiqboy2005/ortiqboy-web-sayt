@@ -41,54 +41,51 @@
     }
 
     .link_1 {
-        position: relative;
 
         text-decoration: none;
         color: white;
         margin-left: 279px;
     }
-
+    .link_1:hover{
+        color:rgb(86, 86, 183) ;
+    }
     .link_2 {
-        // &:hover {
-        //     background-color: rgb(86, 86, 183);
-        //     border-radius: 10%;
-        // }
+
 
         text-decoration: none;
 
         color: white;
     }
+    .link_2:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
     .link_3 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
 
         text-decoration: none;
         color: white;
     }
+    .link_3:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
     .link_4 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
 
         text-decoration: none;
         color: white;
     }
+    .link_4:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
     .link_5 {
-        &:hover {
-            background-color: rgb(86, 86, 183);
-            border-radius: 10%;
-        }
-
         text-decoration: none;
         color: white;
     }
+    .link_5:hover{
+        color:rgb(86, 86, 183) ;
 
+    }
 
 
 }

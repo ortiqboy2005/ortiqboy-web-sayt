@@ -44,10 +44,80 @@ function About() {
          
              <div className="my_about">
               <p className='my_fullname'>Hi,my fullname is <span className='name'> Abdurahmonov Ortiqboy</span>. I am frontend developer in Uzbekistan. <span className='name'> I am 18 years old.</span>
-              I have finished my college this year. My favourite jobs are accounter, frontend developer, web designer. 
+               My nationality is <span className='name'>UZBEK</span> and I have been living in <span className='name'>Andijon</span>, <span className='name'>Klara-Setkin</span>,since I was born. 
+               I have finished my college this year. My favourite jobs are accounter, frontend developer, web designer. 
                I am interested in building wonderful websites and working on collaboration with other people that help me improve my knowledge and experience.
                I have been studying and practicing at <span className='name'> Digital City in Andijan</span> for 8 months. In the last 2 months, 
                I have practiced my knowledge by building a website with our team, the <span className='name'> F-3 team</span>.</p>
+            </div>
+            <div className='about_items'>
+              <div className="about_items_left">
+                <h2>2</h2>
+                <span></span>
+                <p>
+                  Months
+                  <br />
+                  Experience
+                </p>
+              </div>
+              <div className="about_items_left">
+                <h2>2</h2>
+                <span></span>
+                <p>
+                  Months
+                  <br />
+                  Experience
+                </p>
+              </div>
+              <div className="about_items_right">
+                <h2>6 +</h2>
+                <span></span>
+                <p>
+                Completed
+
+                  <br />
+                  Projects
+                </p>
+              </div>
+              <div className="about_items_left">
+                <h2>2</h2>
+                <span></span>
+                <p>
+                  Months
+                  <br />
+                  Experience
+                </p>
+              </div>
+              <div className="about_items_right">
+                <h2>6 +</h2>
+                <span></span>
+                <p>
+                Completed
+
+                  <br />
+                  Projects
+                </p>
+              </div>
+              <div className="about_items_left">
+                <h2>2</h2>
+                <span></span>
+                <p>
+                  Months
+                  <br />
+                  Experience
+                </p>
+              </div>
+              <div className="about_items_right">
+                <h2>6 +</h2>
+                <span></span>
+                <p>
+                Completed
+
+                  <br />
+                  Projects
+                </p>
+              </div>
+
             </div>
          
         </div>

@@ -21,7 +21,8 @@ function Hero() {
             <a href='https://instagram.com/_abdurahmanov_010?igshid=YTQwZjQ0NmI0OA==' target='_blank' className='mail'><i class="bi bi-instagram"></i></a>
             <a href='https://github.com/ortiqboy2005' target='_blank' className='git'><i class="bi bi-github"></i></a>
             <a href='https://www.linkedin.com/in/oritqboy-abdurahmanov-05b44a298' target='_blank' className='in'><i class="bi bi-linkedin"></i></a>
-           </div>
+            </div>
+            <a href="/about"><button className='hero_buton'>More About Me</button></a>
           </div>
           
        
