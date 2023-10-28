@@ -18,7 +18,7 @@ function Header() {
               <Link to="/about" className='link_2'>About me</Link>
             </li>
             <li>
-              <Link className='link_3'>Skills</Link>
+              <Link to={"/skillis"} className='link_3'>Skills</Link>
             </li>
             <li>
               <Link className='link_4'>Portfolio</Link>
@@ -27,7 +27,7 @@ function Header() {
               <Link className='link_5'>Cantact me</Link>
             </li>
           </ul>
-           <span> <Link><img className='logo_my' src={Logo} alt="" /></Link></span>
+           <span> <Link><img to="/" className='logo_my' src={Logo} alt="" /></Link></span>
           
         </div>
       </div>

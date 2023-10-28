@@ -99,6 +99,7 @@
         }
     }
 }
+.buton_ab{
 .hero_buton{
     width: 236px;
     height: 61px;
@@ -107,9 +108,20 @@
     margin-top: 709px;
     border-radius: 98px;
     background: #D7D7D7;
+    
+}
+.bi-arrow-right-circle-fill{
+   
+    margin-top: 708px;
+    margin-left: -125px;
+    font-size: 60px;
+    position: absolute;
+
+}
+.buton_text{
     font-weight: 600;
     font-size: 20px;
-    
+    margin-left: -43px;
 
-
+}
 }
